@@ -7,38 +7,46 @@
     <title>CSS - Tailwind</title>
 
 </head>
-
+ 
 <body class="bg-slate-100">
 
     <header class="bg-white p-100 pt-[34px] pb-[30px]">
         <div class="flex gap-[30px]">
-            <h1 class="logo">
-                Digital Store
+            <img class="w-[33px] h-[33px] mt-[11px] rounded-lg" src="imgs\285262909_166322979190368_7051054194111188546_n.jpg" alt="" h1>
+            <h1 class="logo text-[36px] text-pink-700 font-bold">
+            Digital Store
             </h1>
             <div class="pesquisa flex-1">
-                <input type="text" placeholder="Pesquisar produto">
+                <input 
+                  type="text"class="pl-10 w-[559px] h-[60px] bg-slate-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                  placeholder="Pesquisar produto..."/>
                 <box-icon name="search"></box-icon>
-            </div>
+              </div>
             <div class="flex gap-[30px]">
+                <div class="flex items-center justify-center h-[40px] w-[114px] underline underline-offset-2 text-[16px]">
                 <a href="">Cadastre-se</a>
+                </div>
+                <div class="flex items-center justify-center text-white font-bold bg-pink-700 rounded-lg h-[40px] w-[114px] 44px hover:bg-pink-900 text-[14px] duration-300">
                 <a href="">Entrar</a>
-                <div class="carrinho">
+                </div>
+                <div class="carrinho flex items-center justify-center h-[40px] w-[114px] 44px">
                     <box-icon name="cart"></box-icon>
                 </div>
             </div>
         </div>
         <div>
             <nav>
-                <ul class="flex">
-                    <li><a href="">Home</a>
+                <ul class="flex gap-[30px] items-center justify-center w-[423px] h-[29px] mt-[40px] text-[16px]">
+                    <li class="hover:underline underline-offset-2 hover:font-medium hover:text-pink-700">
+                        <a href="">Home </a>
                     </li>
-                    <li>
+                    <li class="hover:underline underline-offset-2 hover:font-medium hover:text-pink-700">
                         <a href="">Produtos</a>
                     </li>
-                    <li>
+                    <li class="hover:underline underline-offset-2 hover:font-medium hover:text-pink-700">
                         <a href="">Categorias</a>
                     </li>
-                    <li>
+                    <li class="hover:underline underline-offset-2 hover:font-medium hover:text-pink-700">
                         <a href="">Meus Pedidos</a>
                     </li>
                 </ul>
